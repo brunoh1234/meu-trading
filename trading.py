@@ -20,7 +20,7 @@ def carregar_dados():
         return pd.DataFrame(columns=['Data', 'Ativo', 'Timeframe', 'Resultado', 'Lucro', 'Banca'])
 
 
-st.title("📈 JAKOBA - Gestão Profissional na Nuvem")
+st.title("📈 Bruno - Gestão Profissional")
 
 # --- SIDEBAR: CONFIGURAÇÃO DE GESTÃO ---
 with st.sidebar:
@@ -133,3 +133,4 @@ with tab2:
     else:
 
         st.write("O histórico está vazio.")
+
