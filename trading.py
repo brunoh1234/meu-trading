@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 
 # Configuração da Página
-st.set_page_config(page_title="JAKOBA CLOUD", layout="wide", page_icon="🚀")
+st.set_page_config(page_title="Bruno", layout="wide", page_icon="🚀")
 
 # --- CONEXÃO GOOGLE SHEETS ---
 # A conexão será configurada no painel do Streamlit Cloud depois
@@ -131,4 +131,5 @@ with tab2:
     if not df.empty:
         st.dataframe(df.sort_index(ascending=False), width="stretch")
     else:
+
         st.write("O histórico está vazio.")
